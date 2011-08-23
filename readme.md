@@ -40,7 +40,7 @@
 - 9
   - Deque
 - Conway
-- Tic-Tac-Toe
+- Tic-Tac-Toe + Colors
 
 ---
 
