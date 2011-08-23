@@ -1,6 +1,3 @@
-// Austin Davis-Richardson
-// harekrishna@gmail.com
-
 #ifndef P3_C
 #define	P3_C
 #include <stdio.h>

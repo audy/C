@@ -1,6 +1,3 @@
-// Austin Davis-Richardson
-// harekrishna@gmail.com
-
 #include "p3.h"
 
 struct node* insertAtBeginning(struct node* first, int valToInsert) {
