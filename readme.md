@@ -1,4 +1,4 @@
-# Ima Learn C
+# C
 
 ---
 
