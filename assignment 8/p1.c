@@ -1,6 +1,3 @@
-// Austin Davis-Richardson
-// harekrishna@gmail.com
-
 #include "p1.h"
 
 struct point changeLocation(struct point p, enum direction d) {

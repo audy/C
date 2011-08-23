@@ -1,8 +1,6 @@
-// Austin Davis-Richardson
-// harekrishna@gmail.com
-
 #include <stdio.h>
 #include "p2.h"
+
 /*
 int getTheArea(struct rectangle r) {
 	

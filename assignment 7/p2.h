@@ -1,5 +1,3 @@
-// AGDR
-
 
 // Structures
 struct point { int x, y; };

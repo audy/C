@@ -1,6 +1,3 @@
-// Austin Davis-Richardson
-// harekrishna@gmail.com
-
 #include <stdio.h>
 #include "p1.h"
 

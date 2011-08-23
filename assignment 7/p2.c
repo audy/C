@@ -1,5 +1,3 @@
-// AGDR
-
 #include "p2.h"
 
 int getTheArea(struct rectangle r) {

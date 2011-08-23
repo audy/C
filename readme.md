@@ -43,3 +43,12 @@ Artistic License
 - p1.c: Vector
 - p2.c: DIY `strcopy();`
 - p3.c: DIY `strcmp();`
+
+## 7
+
+- p1*: MACRO
+- p2*{c,h}: Rectangle
+- p3.*: `stof();`
+
+## 8
+
