@@ -26,3 +26,20 @@ Artistic License
 - p2.c: Triangle
 - p3.c: All combinations of 3 integers with a sum of N
 - p4.c: n! for 0 < n < 16
+
+## 4
+
+- p1.c: Telephone
+- p2.c: Computer
+
+## 5
+
+- p1*.c: BubbleSort
+- p2.c: Static
+- p3.c: Pointers
+
+## 6
+
+- p1.c: Vector
+- p2.c: DIY `strcopy();`
+- p3.c: DIY `strcmp();`

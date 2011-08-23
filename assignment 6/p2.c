@@ -4,8 +4,10 @@
 #include <stdio.h>
 
 int my_strcpy(char *s1, char *s2) {
+
 	while ((*s2++=*s1++)!='\0');
 	return 0;
+	
 }
 
 /*
@@ -17,9 +19,12 @@ int my_strcpy(char *s1, char *s2) {
 */
 
 int main(void) {
+
 	char s1[] = "Sarah Pailin Para Sailin";
 	char s2[strlen(s1)];
+
 	my_strcpy(s1,s2);
 	puts(s2);
+
 	return 0;
 }
