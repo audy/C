@@ -1,4 +1,4 @@
-# The C Programming Language
+# Programming Using C
 
 The University of Florida  
 Summer '09
