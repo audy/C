@@ -1,9 +1,5 @@
-/* 
- AUSTIN DAVIS-RICHARDSON 
- GNU GENERAL PUBLIC LICENSE
-*/
-
 #include <stdio.h>
+
 int main(void)
 {
 	int input,days,hours,minutes,seconds;

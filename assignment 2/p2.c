@@ -1,9 +1,5 @@
-/* 
- AUSTIN DAVIS-RICHARDSON 
- GNU GENERAL PUBLIC LICENSE
-*/
-
 #include <stdio.h>
+
 int main(void)
 {
 	float a_1,a_2,a_3,a_4,a_5,midterm,desired_grade;
