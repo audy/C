@@ -1,11 +1,8 @@
-# Programming Using C
-
-The University of Florida  
-Summer '09
-
-Artistic License
+# Ima Learn C
 
 ---
+
+# Summer @ UF '09
 
 ## 1
 
@@ -52,3 +49,7 @@ Artistic License
 
 ## 8
 
+
+---
+
+Artistic License
