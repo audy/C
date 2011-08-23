@@ -1,0 +1,49 @@
+Austin Davis-Richardson
+Homework 5 - Part 4
+
+a.) the output is:
+
+i = 1, j = 2
+You should've used pointers!
+
+b.) This one prints FALSE
+
+#include <stdio.h>
+#define N 15 
+#define FALSE 0 
+#define TRUE 1 
+
+int i; 
+int eval(void);
+main() 
+{ 
+  i = N; 
+  i = eval(); // Now i = (1 + 15)/2 == 15
+  if (!i) // 8 isn't 1, so this be true.
+    printf("FALSE\n"); // This gets printed as is (in quotes)
+  else 
+    printf("TRUE\n"); // This does not.
+  return 0; 
+} 
+int eval(void) 
+{ 
+  int i = 0; 
+  
+  i += N; // Sets i = 16
+  return ((i/2) == N); // Returns 8
+} 
+
+c.) i would still be 5.  you set the address of p to 10 instead of setting i to 10.  The correct way to do this would be *p = 10.
+
+int i, *p; // p is a pointer.
+i = 5; // i gets set to 5
+p = &i; // p -> i -> 5
+p = 10; // This makes the address that p points to '10'
+
+d.) *q didn't get assigned an address.  So it points to whatever address it happens to have.  This would cause the program to attempt to write to memory that it does not have permission to write to.  The value of p would be 10.  This program would crash as soon as it got to *q = *p so the value of *q is metaphysical.
+
+int i, *p, *q; 
+i = 5; 
+p = &i; // p -> i -> 5 
+*q = *p; // you did not set an address for q!
+i = 10;
