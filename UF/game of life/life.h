@@ -1,10 +1,12 @@
+#include <stdio.h>
+
 #ifndef LIFE_H
 #define LIFE_H
 
 #define SYMBOL 'O'
 
-#define ROWS 35
-#define COLS 70
+#define ROWS 48
+#define COLS 164
 
 #define TRUE 1
 #define FALSE 0
@@ -98,17 +100,25 @@ void spaceship (char cell[][COLS]) {
 	cell[srow+3][col+2] = symbol;
 }
 
+void random(char cell[][COLS]) {
+  int i;
+  int j;
+  for (i = 0; i < ROWS-2; i++) {
+    for (j = 0; j < COLS-2; j++) {
+      int r = rand();
+      if (r < 1260723224) {
+        cell[i][j] = SYMBOL;
+      }
+    }
+  }
+}
+
 void configure (char cell[][COLS]) {
-	
 	void (*pattern)(char cell[][COLS]);
 	
-	// choose the tencell pattern..
-	// to test with other patterns replace tencell below
-	// with the appropriate function name
+	pattern = &random;
 	
-	pattern = &glidergun;
-	
-	pattern (cell);
+	pattern(cell);
 }
 
 
